@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+#beranda {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.gambar-beranda-utama {
+    max-height: 500px;
+}
+
+#beranda h4{
+    padding-top: 120px;
+    color: #ff7043 ;
+}
+
+.tombol{
+    margin-top: 20px;
+    padding: 12px 24px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.googleplay{
+    background-color: #ff7043 ;
+    margin-right: 10px;
+}
+
+.googleplay:hover{
+    opacity: 50%;
+}
+
+.logo-googleplay{
+    width: 20px;
+    position: absolute;
+}
+
+.spasi {
+    color: #ff7043 ;
+}
+
+.tombol-apel{
+    margin-left: -100px !important; 
+}
+
+.appstore{
+    background-color: #ff7043 ;
+}
+
+.appstore:hover{
+    opacity: 50%;
+}
+
+.logo-apple{
+    width: 20px;
+    position: absolute;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.fitur-garisbawah {
+    font-size: 30px;
+    border-bottom: 3px solid #ff725e;
+    padding-bottom: 3px;
+}
+
+#fitur h4{
+    margin-top: 150px;
+    color: #ff7043;
+}
+
+.gambar-fitur-kiri {
+    max-height: 400px;
+}
+
+#lacakpaket{
+    margin: 320px 0;
+}
+
+#lacakpaket h5{
+    font-size: 28px;
+    color: #ff7043;
+}
+
+#kurir{
+    margin: 160px 0;
+}
+
+#kurir h4{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff7043;
+}
+
+.bingkai-aside {
+    margin: 20px auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(255, 114, 94, 0.5);
+    border-radius: 0.25rem;
+    transition: 1s ease;
+}
+
+.bingkai-aside:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.foto-aside {
+    width: 50%;
+    border: 1px solid rgba(255, 114, 94, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.deskripsi-aside {
+    padding: 20px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+#karir{
+    margin: 220px 0;
+}
+
+#karir h1{
+    color: #ff7043;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #ff7043 ;
+    font-weight: bold;
+    z-index: 10;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
